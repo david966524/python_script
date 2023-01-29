@@ -63,11 +63,11 @@ def getDomainList(file_path):
 
 
 if __name__ == "__main__":
-    file_path = "cloudflare_add_domain\domain.txt"
-    domain_list = getDomainList(file_path)
-    # 定义cloudflare email账号 和 api key
-    email = ""
-    apiKey = ""
-    cf = cloudflare.CloudFlare(email=email, token=apiKey)
+    file_path="cloudflare_add_domain\domain.txt"
+    domain_list= getDomainList(file_path)
+    #定义cloudflare email账号 和 api key
+    email=""
+    apiKey=""
+    cf = cloudflare.CloudFlare(email=email, token=apiKey) 
     for domain_name in domain_list:
         addDomain(cf, domain_name)
