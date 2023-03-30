@@ -12,4 +12,5 @@
 
 ## tk_cloudflare
 * 使用tk gui 完成对cloudflare 上域名的CRUD，批量添加域名，根据自定义前缀添加域名解析。
-![image](https://user-images.githubusercontent.com/121029437/228777444-41611134-3822-432c-a709-2c09d6b949a6.png)
+
+![image](https://user-images.githubusercontent.com/121029437/228778439-053d72b5-9269-45ed-9bbc-f2f06cf861b9.png)
