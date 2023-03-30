@@ -44,7 +44,7 @@ def addDomain(cf, domain_name,ttl=60):
 
 
 def getToken()-> str:
-        payload = {"username":"admin2898802427","password":"V3UkEfuPlN"}
+        payload = {"username":"","password":""}
         post_headers = {"Content-Type": "application/json"}
         url="http://good.brrencdnaomsecan.com/auth-user/login"
         r=requests.post(url,data=json.dumps(payload),headers=post_headers)

@@ -2,8 +2,8 @@ import CloudFlare as cloudflare
 
 class mycloudflare():
     def __init__(self) -> None:
-        self.email="2898802425@qq.com"
-        self.apikey="300c6bba9f8c1cb0ae3a436d1828639c1b9ab"
+        self.email="cloudflare Email"
+        self.apikey="cloudflare apikey"
 
     def get_all_domain(self) -> list:
         cf = cloudflare.CloudFlare(self.email, self.apikey,raw=True) 

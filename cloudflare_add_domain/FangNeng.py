@@ -4,8 +4,8 @@ from configparser import ConfigParser
 class FangNeng():
     def __init__(self, domain_name,groups="3654",user_package="1779",backenIp="11.22.33.44",port="80"):
         self.api_url = "https://api.funnullv8.com/"
-        self.apiKey = "roYEe3nSatTqRV2G"
-        self.apiSecret = "JFZTaBScVDrMGkgf0z93qlsYXU2jA4"
+        self.apiKey = ""
+        self.apiSecret = ""
         self.domain_name = domain_name # 需要添加的域名
         self.groups = groups   # 分组id
         self.user_package = user_package  # 套餐id
@@ -52,7 +52,7 @@ if __name__ == "__main__":
     backendIP=cfg.get("FangNeng","backendIP")
     backendPort=cfg.get("FangNeng","backendPort")
 
-    post_headers = {"Content-Type": "application/json","api-key": "roYEe3nSatTqRV2G", "api-secret": "JFZTaBScVDrMGkgf0z93qlsYXU2jA4"}
+    post_headers = {"Content-Type": "application/json","api-key": "", "api-secret": ""}
     url="https://cdn.funnullv8.com/sites/435455"
     data={"https_listen": {"force_ssl_enable": True,"force_ssl_port": "443"}}
     #data={"https_listen": {"force_ssl_enable": True}}
